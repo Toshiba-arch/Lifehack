@@ -22,7 +22,7 @@ opcao = st.selectbox(
 
 # De acordo com a seleção, chamamos a função correspondente
 #if opcao == "Chatbot Interativo":
-    run_chatbot()
+    #run_chatbot()
 if opcao == "Gerador de Números do Euromilhões":
     run_euromilhoes()
 elif opcao == "Criação de Posts de Vendas - Basico":
