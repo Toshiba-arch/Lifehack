@@ -12,7 +12,7 @@ st.title("App de Funcionalidades Diversas")
 opcao = st.selectbox(
     "Selecione a funcionalidade",
     [
-        "Chatbot Interativo",
+        #"Chatbot Interativo",
         "Gerador de Números do Euromilhões",
         "Criação de Posts de Vendas - Basico",
         "Criação de Posts de Vendas",
