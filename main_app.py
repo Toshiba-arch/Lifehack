@@ -3,7 +3,7 @@ from app_euromilhoes import run as run_euromilhoes
 from app_ofertas import run as run_ofertas
 from app_matricula import run as run_matricula
 from auto_post_app import auto_post_app
-from app_chatbot import run as run_chatbot  # Importando a funcionalidade do chatbot
+#from app_chatbot import run as run_chatbot  # Importando a funcionalidade do chatbot
 
 # Título principal da app
 st.title("App de Funcionalidades Diversas")
@@ -21,9 +21,9 @@ opcao = st.selectbox(
 )
 
 # De acordo com a seleção, chamamos a função correspondente
-if opcao == "Chatbot Interativo":
+#if opcao == "Chatbot Interativo":
     run_chatbot()
-elif opcao == "Gerador de Números do Euromilhões":
+if opcao == "Gerador de Números do Euromilhões":
     run_euromilhoes()
 elif opcao == "Criação de Posts de Vendas - Basico":
     run_ofertas()
