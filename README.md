@@ -5,7 +5,7 @@ colorFrom: "blue"  # Cor do gradiente inicial
 colorTo: "green"  # Cor do gradiente final
 sdk: "streamlit"  # Define que a aplicação usa Streamlit
 sdk_version: "1.30.0"  # Versão do Streamlit
-app_file: "app.py"  # Arquivo principal da aplicação
+app_file: "main_app.py"  # Arquivo principal da aplicação
 pinned: false
 ---
 
