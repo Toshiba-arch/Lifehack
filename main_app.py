@@ -3,6 +3,7 @@ from app_euromilhoes import run as run_euromilhoes
 from app_ofertas import run as run_ofertas
 from app_matricula import run as run_matricula
 from auto_post_app import auto_post_app
+from whatasppIA import main as whatsapp_main
 #from app_chatbot import run as run_chatbot  # Importando a funcionalidade do chatbot
 
 # Título principal da app
@@ -17,6 +18,7 @@ opcao = st.selectbox(
         "Criação de Posts de Vendas - Basico",
         "Criação de Posts de Vendas",
         "Consulta de Marca do Carro pela Matrícula"
+        "Whatsapp Ai"
     ]
 )
 
@@ -31,3 +33,6 @@ elif opcao == "Criação de Posts de Vendas":
     auto_post_app()
 elif opcao == "Consulta de Marca do Carro pela Matrícula":
     run_matricula()
+elif opcao == "whatasppIA":
+    # Importe e execute a app whatasppIA
+    whatsapp_main()
